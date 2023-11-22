@@ -40,6 +40,8 @@
         android:id="@+id/favoritar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
         android:text="favoritar"
-        android:textAllCaps="true" />
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

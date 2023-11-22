@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 if ( senha.trim().equals("1234")){
                     editor.putString("nome", nomeUsuario).apply();
                     Toast.makeText(this, "Login concedido!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                    startActivity(new Intent(getApplicationContext(), ExerciciosActivity.class));
                 }else{
                     Toast.makeText(this, "Senha errada", Toast.LENGTH_SHORT).show();
                 }
